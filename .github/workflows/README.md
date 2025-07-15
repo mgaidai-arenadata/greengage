@@ -1,4 +1,4 @@
-# Greengage CI Workflow TEST PR
+# Greengage CI Workflow TEST PR next
 
 This repository contains the main CI pipeline for the Greengage project, orchestrating the build, test, and upload stages for containerized environments. The pipeline is designed to be flexible, with parameterized inputs for version and target operating systems, allowing it to adapt to different branches and configurations.
 
