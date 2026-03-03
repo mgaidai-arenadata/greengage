@@ -6,7 +6,7 @@ on:
     workflows: ["Greengage CI"]
     types: [completed]
     branches:
-      - main
+      - 6.x
       - 7.x
 
 jobs:
@@ -55,7 +55,7 @@ jobs:
           BRANCH: ${{ github.event.workflow_run.head_branch }}
         run: |
           case "$BRANCH" in
-            main)
+            6.x)
               echo "version=6" >> $GITHUB_OUTPUT
               ;;
             7.x)
