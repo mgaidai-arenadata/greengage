@@ -59,7 +59,7 @@ jobs:
             main)
               echo "version=6" >> $GITHUB_OUTPUT
               ;;
-            [0-9]+.x)
+            [0-9]*.x)
               echo "version=${BRANCH%x}" >> $GITHUB_OUTPUT
               ;;
             *)
